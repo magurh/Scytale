@@ -29,17 +29,3 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-
-4. Run app
-
-```
-python -m app/gui.py
-```
-
-5. Build executable
-
-To build a standalone executable:
-
-```
-pyinstaller --onefile -w app/gui.py
-```
