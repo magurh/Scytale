@@ -1,9 +1,14 @@
 # Scytale
 
+Scytale is a collection of encryption applications designed for different cryptographic methods. It includes:
+
+[x] Symmetric key encryption app `enigma`
+[] Public/private key encryption app
+
 
 ### Setup
 
-1. Close the repository:
+1. Clone the repository:
 
 ```
 git clone https://github.com/magurh/Scytale.git
@@ -28,4 +33,11 @@ source venv/bin/activate
 
 ```
 pip install -r requirements.txt
+```
+
+
+2. Navigate to the desired app and follow instructions therein:
+
+```
+cd enigma
 ```

@@ -3,7 +3,7 @@ Graphical User Interface using tkinter using Tkinter.
 """
 import tkinter as tk
 from tkinter import messagebox
-from app.encryption import generate_key, encrypt_message, decrypt_message
+from enigma.app.encryption import generate_key, encrypt_message, decrypt_message
 import base64
 import os
 
