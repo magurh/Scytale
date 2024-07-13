@@ -2,8 +2,8 @@
 
 Scytale is a collection of encryption applications designed for different cryptographic methods. It includes:
 
-[x] Symmetric key encryption app `enigma`
-[] Public/private key encryption app
+- [x] Symmetric key encryption app `enigma`
+- [] Public/private key encryption app
 
 
 ### Setup
