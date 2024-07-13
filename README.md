@@ -3,6 +3,7 @@
 Scytale is a collection of encryption applications designed for different cryptographic methods. It includes:
 
 - [x] Symmetric key encryption app `enigma`
+- [ ] Substitution cyphers and decryption through frequency analysis
 - [ ] Public/private key encryption app
 
 
@@ -36,7 +37,7 @@ pip install -r requirements.txt
 ```
 
 
-2. Navigate to the desired app and follow instructions therein:
+4. Navigate to the desired app and follow instructions therein:
 
 ```
 cd enigma
