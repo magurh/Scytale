@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox, scrolledtext
-from caesar.app.cipher import generate_random_key, validate_key, encrypt, decrypt, frequency_analysis
+from caesar.app.cipher import generate_random_key, validate_key, encrypt, decrypt
+from caesar.app.decryption import frequency_analysis
 
 class CipherApp:
     def __init__(self, root):
@@ -109,7 +110,7 @@ class CipherApp:
         self.encrypt_button.config(relief=tk.RAISED, bg="light blue")
         self.decrypt_button.config(relief=tk.RAISED, bg="light blue")
         self.freq_analysis_button.config(relief=tk.SUNKEN, bg="green")
-
+    
         text = self.text_area.get("1.0", tk.END).strip()
         guessed_text, guessed_key = frequency_analysis(text)
         self.result_area.delete("1.0", tk.END)
