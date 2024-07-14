@@ -1,5 +1,9 @@
 # Caesar
 
+Despite its name, Caesar is an app that uses any type of substitution cyphers (not only Caesar cyphers) for encryption. The app is built in python using the `cryptography` module.
+
+Caesar also has an option to decrypt messages without a key. This uses letter and N-gram frequency analysis, together with a Monte Carlo Markov Chain type algorithm. Note that this only works on substitution cyphers.
+
 
 ### Setup
 
